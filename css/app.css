@@ -1,6 +1,8 @@
 html {
     font-family: 'Fredoka', sans-serif;
     font-family: 'Roboto', sans-serif;
+    color: #23272a;
+    font-weight: 400;
 }
 
 * {
@@ -28,22 +30,26 @@ body {
 	justify-content: space-between;
 }
 
+.align-center {
+    align-items: center;
+}
+
 /* header */
 .page-header {
     padding: 10px;
-}
-
-/* navbar
-.logo,
-.login {
-    flex-basis: calc(100% / 4);
-    padding: 5px;
+    background-color: #3161e0;
 }
 
 .page-menu {
-    flex-grow: 1;
-    padding: 7px;
-} */
+   display: flex;
+}
+
+.page-menu a {
+    padding: 20px 10px;
+    color: white;
+    text-decoration: none;
+}
+
 
 
 /* main */
@@ -70,6 +76,14 @@ section {
     justify-content: center;
 }
  
+
+/* button */
+.white-button {
+    background-color: white;
+    border-radius: 50px;
+    padding: 7px 15px;
+}
+
 
 /* columns & bg-sections */
 .col-25 {
@@ -107,6 +121,31 @@ section {
 .dgrey-bg {
     background-color: #23272a;
 }
+
+
+/* typogtraphy */
+.bt-12 {
+    font-size: 12px;
+}
+
+.bt-14 {
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* DEBUG */
 
