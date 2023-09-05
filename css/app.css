@@ -1,0 +1,176 @@
+html {
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+}
+
+.justify-between {
+	justify-content: space-between;
+}
+
+/* header */
+.page-header {
+    padding: 10px;
+}
+
+/* navbar
+.logo,
+.login {
+    flex-basis: calc(100% / 4);
+    padding: 5px;
+}
+
+.page-menu {
+    flex-grow: 1;
+    padding: 7px;
+} */
+
+
+/* main */
+section {
+    padding: 30px 0;
+}
+
+/* footer */
+.page-footer {
+    padding-top: 20px;
+}
+
+.page-footer .row {
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* hero section */
+.hero-section {
+    background-color: #00008b;
+}
+
+.hero-section .row {
+    justify-content: center;
+}
+ 
+
+/* columns & bg-sections */
+.col-25 {
+    flex-basis: 25%;
+}
+
+.col-30 {
+    flex-basis: 30%;
+}
+
+.col-35 {
+    flex-basis: 35%;
+}
+
+.col-65 {
+    flex-basis: 65%;
+}
+
+.col-70 {
+    flex-basis: 70%;
+}
+
+.col-100 {
+    flex-basis: 100%;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.lgrey-bg {
+    background-color: #d3d3d3;
+}
+
+.dgrey-bg {
+    background-color: #23272a;
+}
+
+/* DEBUG */
+
+/* debug header */
+.debug .page-header {
+    background-color: #add8e6;
+    min-height: 60px;
+}
+
+.debug .page-header [class^='col'] {
+	background-color: #daa520;
+	border: 2px dashed black;
+	padding: 20px;
+}
+
+/* debug hero section */
+
+.hero-section .col-70 {
+    background-color: #ee81ee;
+}
+
+/* debug footer */
+.debug .page-footer {
+    border-top: #FFFFFF;
+    border-style: solid;
+}
+
+.page-footer .container {
+    background-color: #7fffd3;
+    min-width:  40px;
+}
+.page-footer .row {
+    min-height: 50px;
+}
+
+.debug [class^='col-'] {
+    border: #23272a;
+    border-style: dashed;
+    border-width: 2px;
+    min-height: 300px;
+}
+
+.debug .col-25 {
+    background-color: #20b1a9;
+    min-height: 400px;
+    border: #FFFFFF;
+    border-style: dashed;
+    border-width: 2px;
+}
+
+.debug .col-30 {
+    background-color: #ef8080;
+    min-height: 400px;
+}
+
+.debug .col-35 {
+    background-color: #fec0ca;
+}
+
+.debug .col-65 {
+    background-color: #1c90ff;
+}
+
+.debug .col-100 {
+    background-color: #228b21;
+    min-height: 600px;
+}
