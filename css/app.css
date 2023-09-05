@@ -50,7 +50,14 @@ body {
     text-decoration: none;
 }
 
+/* hero section */
+.hero-section {
+    background-image: url(../img/jumbo.png);
+}
 
+.hero-section .row {
+    justify-content: center;
+}
 
 /* main */
 section {
@@ -66,15 +73,6 @@ section {
     justify-content: space-between;
     align-items: center;
 }
-
-/* hero section */
-.hero-section {
-    background-color: #00008b;
-}
-
-.hero-section .row {
-    justify-content: center;
-}
  
 
 /* button */
@@ -86,6 +84,11 @@ section {
 
 
 /* columns & bg-sections */
+.col-10 {
+    flex-basis: calc((100% / 12) * 100);
+}
+
+
 .col-25 {
     flex-basis: 25%;
 }
